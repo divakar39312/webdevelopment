@@ -1,8 +1,31 @@
 
+#video-div{
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+}
 
+#main{
+  flex: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
 
-.nav-link{
-  color: white;
+#quote{
+  flex: auto;
+  color: forestgreen;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.video{
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
